@@ -1,4 +1,4 @@
-const steps = require('./index');
+const steps = require('./code');
 
 beforeEach(() => {
   jest.spyOn(console, 'log');
