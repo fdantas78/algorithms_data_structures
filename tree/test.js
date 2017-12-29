@@ -1,4 +1,4 @@
-const T = require('./index');
+const T = require('./code');
 const Node = T.Node;
 const Tree = T.Tree;
 
@@ -29,7 +29,7 @@ describe('Node', () => {
   });
 });
 
-describe.skip('Tree', () => {
+describe('Tree', () => {
   test('starts empty', () => {
     const t = new Tree();
     expect(t.root).toEqual(null);
